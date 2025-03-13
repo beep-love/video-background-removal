@@ -1,1 +1,1 @@
-docker run --rm video-background-removal
+docker run --rm -it video-background-removal bash

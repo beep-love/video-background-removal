@@ -6,11 +6,10 @@ WORKDIR /app
 # Copy files
 COPY requirements.txt .
 COPY main.py .
-COPY input .
-COPY output .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-
+COPY input/ .
+COPY output/ .
 # Run the script when the container starts
-CMD ["python", "main.py"]
+# CMD ["python", "main.py"]
