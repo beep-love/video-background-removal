@@ -1,1 +1,2 @@
-*.mp4
+app/input/*.mp4
+app/output/*.mp4
