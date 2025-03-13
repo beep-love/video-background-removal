@@ -7,7 +7,7 @@ from PIL import Image
 # Paths
 INPUT_DIR = "input"
 OUTPUT_DIR = "output"
-OUTPUT_VIDEO = os.path.join(INPUT_DIR, "input.mp4")
+INPUT_VIDEO = os.path.join(INPUT_DIR, "input.mp4")
 OUTPUT_VIDEO = os.path.join(OUTPUT_DIR, "output.mp4")
 
 # Ensure output directory exists

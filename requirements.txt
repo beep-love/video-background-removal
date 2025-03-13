@@ -5,3 +5,7 @@ torchvision
 torchaudio
 rembg
 pillow
+onnxruntime-gpu
+onnx
+onnxruntime-tools
+onnxruntime
