@@ -1,0 +1,1 @@
+docker run --rm video-background-removal
