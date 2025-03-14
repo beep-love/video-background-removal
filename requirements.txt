@@ -7,5 +7,4 @@ rembg
 pillow
 onnxruntime-gpu
 onnx
-onnxruntime-tools
-onnxruntime
+insightface

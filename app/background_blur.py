@@ -8,7 +8,7 @@ from PIL import Image
 INPUT_DIR = "input"
 OUTPUT_DIR = "output"
 INPUT_VIDEO = os.path.join(INPUT_DIR, "input.mp4")
-OUTPUT_VIDEO = os.path.join(OUTPUT_DIR, "output.mp4")
+OUTPUT_VIDEO = os.path.join(OUTPUT_DIR, "bg_blur_output.mp4")
 
 # Ensure output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
